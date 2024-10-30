@@ -1,0 +1,4 @@
+#available-widgets [class*="icalendrier_widget"] .widget-title::before {
+    content: "\f145";
+    top: -4px;
+}

@@ -1,0 +1,185 @@
+/* ----------------------------------------------
+	Start Wide
+---------------------------------------------- */
+.alt-1.icalWide {
+    background: #fdfcfc;
+}
+
+.alt-1.icalWide:hover {
+    background: none;
+}
+
+.alt-1.icalWide .today {
+    background: #fdfcfc;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.alt-1.icalWide .today:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.alt-1.icalWide .today {
+    border: 1px solid #045282;
+}
+
+.alt-1.icalWide .today:hover {
+    border-radius: 50%;
+    border: 2px solid #F6F6F6;
+    padding: 10px;
+    margin: 4px -4px;
+    background-color: #fafafa;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.alt-1.icalWide .today:hover:before {
+    border-radius: 50%;
+    border: 2px solid #F6F6F6;
+    padding: 10px;
+    margin: 4px -4px;
+    background-color: #fafafa;
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+.alt-1.icalWide .today:after {
+    background-position: 0 auto;
+}
+
+.alt-1.icalWide .today span {
+    color: #045282;
+}
+
+.alt-1.icalWide .today .num {
+    color: #3E8ADB;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 52px;
+}
+
+.alt-1.icalWide .today .more {
+    color: #045282;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.alt-1.icalWide .today .moon {
+    color: #f76936;
+}
+
+.alt-1.icalWide .today .moon .phase {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #fcfcca, 0 0 25px #feb848, 0 0 5px #ffa02c;
+}
+
+/* ----------------------------------------------
+	End Wide
+---------------------------------------------- */
+/* ----------------------------------------------
+	Start Compact
+---------------------------------------------- */
+.alt-1.icalComp .ctitle a {
+    color: #FFF;
+    font-family: "Bookman Old Style", "Book Antiqua", sans-serif;
+    width: 170px;
+}
+
+.alt-1.icalComp .ctitle a:hover {
+    text-decoration: none;
+}
+
+.alt-1.icalComp .cephem {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.alt-1.icalComp .cephem .today {
+    display: block;
+    height: 50px;
+    left: 22px;
+    position: absolute;
+    top: 31px;
+    width: 126px;
+}
+
+.alt-1.icalComp .cephem .daysem {
+    color: #045282;
+    font-family: "Bookman Old Style", "Book Antiqua", sans-serif;
+    left: -22px;
+}
+
+.alt-1.icalComp .cephem .day {
+    color: #045282;
+}
+
+.alt-1.icalComp .cephem .day span {
+    background: none repeat scroll 0 0 #fff4e6;
+    display: block;
+    float: left;
+    font-family: "Bookman Old Style", "Book Antiqua", sans-serif;
+    line-height: 46px;
+    margin-right: 5px;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 34px;
+}
+
+.alt-1.icalComp .cephem .month {
+    font-family: "Bookman Old Style", "Book Antiqua", sans-serif;
+    text-transform: unset;
+}
+
+.alt-1.icalComp .cephem .fete {
+    color: #045282;
+    display: block;
+    font-family: "Bookman Old Style", "Book Antiqua", sans-serif;
+    font-size: 12px;
+    left: -22px;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 170px;
+}
+
+.alt-1.icalComp .cephem .moon {
+    color: #045282;
+    font-family: "Bookman Old Style", "Book Antiqua", sans-serif;
+}
+
+.alt-1.icalComp .cephem .moon .phase {
+    color: #045282;
+}
+
+/* ----------------------------------------------
+	End Compact
+---------------------------------------------- */

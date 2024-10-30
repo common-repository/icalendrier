@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iCalendrier\n"
+"POT-Creation-Date: 2014-10-07 14:58-0800\n"
+"PO-Revision-Date: 2020-03-12 13:45+0000\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: admin <bp@utopiaweb.fr>\n"
+"Language-Team: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.3.1; wp-5.3.3-alpha-47419"
+
+msgid "MOD_ICAL_CALTYPE_LABEL"
+msgstr "Kalendertyp"
+
+msgid "MOD_ICAL_CALTYPE_COMP175"
+msgstr "Kompakt 175px"
+
+msgid "MOD_ICAL_CALTYPE_COMP300"
+msgstr "Breit 300px"
+
+msgid "MOD_ICAL_LANGUAGE_LABEL"
+msgstr "Sprache"
+
+msgid "MOD_ICAL_TIMEZONE_LABEL"
+msgstr "Zeitzone"
+
+msgid "MOD_ICAL_TIMEZONE_AUTO"
+msgstr "Automatisch"
+
+msgid "MOD_ICAL_BGCOLOR_LABEL"
+msgstr "Benutzerdefinierte Hintergrundfarbe"
+
+msgid "MOD_ICAL_SHOWLINK_LABEL"
+msgstr "Display-Link"
+
+msgid "MOD_ICAL_WIDGET_TITLE_LABEL"
+msgstr "Widget Titel (fakultativ)"
+
+msgid "MOD_ICAL_STYLE_LABEL"
+msgstr "Stil"
+
+msgid "MOD_ICAL_STYLE_DEFAULT"
+msgstr "Standard"
+
+msgid "MOD_ICAL_STYLE_ALT_1"
+msgstr "Alternative 1"

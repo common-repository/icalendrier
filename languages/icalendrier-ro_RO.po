@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iCalendrier\n"
+"POT-Creation-Date: 2014-10-07 14:58-0800\n"
+"PO-Revision-Date: 2020-03-12 13:49+0000\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Last-Translator: admin <bp@utopiaweb.fr>\n"
+"Language-Team: Romanian\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && "
+"n%100<=19) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.3.1; wp-5.3.3-alpha-47419"
+
+msgid "MOD_ICAL_CALTYPE_LABEL"
+msgstr "Tipul de calendar"
+
+msgid "MOD_ICAL_CALTYPE_COMP175"
+msgstr "Compact 175px"
+
+msgid "MOD_ICAL_CALTYPE_COMP300"
+msgstr "Wide 300px"
+
+msgid "MOD_ICAL_LANGUAGE_LABEL"
+msgstr "Limba"
+
+msgid "MOD_ICAL_TIMEZONE_LABEL"
+msgstr "Fusul orar"
+
+msgid "MOD_ICAL_TIMEZONE_AUTO"
+msgstr "Automat"
+
+msgid "MOD_ICAL_BGCOLOR_LABEL"
+msgstr "Personalizarea culorii de fundal"
+
+msgid "MOD_ICAL_SHOWLINK_LABEL"
+msgstr "Afisati link-ul catre iCalendrier"
+
+msgid "MOD_ICAL_WIDGET_TITLE_LABEL"
+msgstr "Personalizarea culorii de fundal"
+
+msgid "MOD_ICAL_STYLE_LABEL"
+msgstr "Stil"
+
+msgid "MOD_ICAL_STYLE_DEFAULT"
+msgstr "Standard"
+
+msgid "MOD_ICAL_STYLE_ALT_1"
+msgstr "Alternativă 1"
